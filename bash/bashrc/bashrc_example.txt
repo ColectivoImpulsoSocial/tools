@@ -1,0 +1,9 @@
+#Para Ubuntu es necesario poner alias <nombre>='<comando>', no hay espacios antes o después del igual
+#Tambien responde a funciones para paso de parametros, ver ejemplo de history_grep()
+
+alias h=history_grep
+alias agi='apt get-install'
+history_grep() {
+  history | grep "$@"
+}
+

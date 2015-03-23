@@ -1,0 +1,9 @@
+i) Descargar un archivo que contenga todas las palabras o hacer un archivo de la siguiente forma:
+
+adios
+ahora
+...
+zopenco
+
+2)  Crear carpeta propia para diccionarios (pueden ser varios)
+	sudo mkdir /usr/share/<nombre_nuevo_dir> (i.e. /usr/share/dictd)
